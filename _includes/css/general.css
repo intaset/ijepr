@@ -1434,7 +1434,7 @@ footer .grid {
   }
 
   nav#slide-menu {
-    right: -300px;
+    right: 0px;
     max-width: 300px;
   }
 
@@ -1631,14 +1631,14 @@ h2 {
 }
 
 /* 768PX - 881 PX */
-@media only screen and (min-width: 25.8em) and (max-width: 55.06em) {
+@media only screen and (min-width: 25.8em) and (max-width: 55.1em) {
 .j-link {
     font-size: 0.9em;
 }
 }
 
 /* 881 PX */
-@media only screen and (min-width: 55.06em) {
+@media only screen and (min-width: 55.1em) {
   .cbp-af-header nav a {
     padding: 0 1em!important;
   }
