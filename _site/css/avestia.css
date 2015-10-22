@@ -1826,16 +1826,24 @@ footer {
 h2 {
   font-size: 1.5em;
   }
-
-  .name {
-    padding: 2em;
+  .j-header {
+        background: url(../img/journals/j-ijepr.jpg) center;
+    width: 65%;
+    min-height: 370px;
+    background-size: cover;
+    float: right;
   }
-
-  .j-header h1 {
+  .name h1 {
     font-size: 1.2em!important;
     padding: 0;
     width: 100%;
-    height: 162px;
+    color: #fecca9;
+    font-weight: 600;
+    text-transform: inherit;
+    padding: 0;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: top;
   }
   .name .body {
     font-size: 0.8em;
@@ -1853,6 +1861,27 @@ h2 {
     display: inline-block;
     text-align: right;
   }
+  .name {
+    width: 35%;
+    padding: 2em;
+    min-height: 370px;
+    position: relative;
+    background-color: #F48120;
+}
+.issn {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+    padding: 0 4em 0 0;
+}
+
+.j-img {
+    display: none;
+}
+.navbar.navbar-default {
+    background-color: #FFF;
+    padding: 370px 0 0;
+}
 .topics {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
@@ -1871,13 +1900,6 @@ h2 {
 }
 .j-home {
   padding: 2em;
-}
-.name {
-    width: 35%;
-}
-
-.j-img {
-    width: 65%;
 }
 .m-recent .border {
   border: 0;
@@ -1934,9 +1956,6 @@ h2 {
   .j-link {
     font-size: 1em;
   }
-  .j-header h1 {
-    height: 194px;
-}
 }
 
 /* 1000 PX */
@@ -1976,9 +1995,8 @@ h2 {
 .subscribe #email {
     width: 69%;
 }
-.j-header h1 {
+.name h1 {
     font-size: 2em!important;
-    height: 250px;
 }
 .name .body {
     font-size: 1.2em;
@@ -2042,6 +2060,10 @@ h2 {
 .name {
     padding: 3em;
 }
+.issn {
+        padding: 0px 6em 0 0;
+        bottom: 49px;
+}
 }
 
 /* 1300 PX */
@@ -2049,23 +2071,20 @@ h2 {
   .j-header {
     background-color: #F48120;
     min-height: 430px;
-    background: url(../img/journals/j-ijepr.jpg) center center;
     background-size: cover;
   }
   .name {
-    width: 35%;
-    float: none; 
-    background-color: #F48120;
     min-height: 430px;
   }
   .j-img {
     display: none;
   }
-  .j-header h1 {
-    height: 280px;
-}
 .name .body {
     font-size: 1.4em;
+}
+.navbar.navbar-default {
+    background-color: #FFF;
+    padding: 430px 0 0;
 }
 }
 
