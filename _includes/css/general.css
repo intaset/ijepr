@@ -1436,7 +1436,12 @@ footer .grid {
   nav#slide-menu {
     right: 0px;
     max-width: 300px;
+    display: none;
   }
+  body.menu-active nav#slide-menu {
+    right: 0px;
+    display: block;
+}
 
   #slide-menu a {
     font-size: 1em;
