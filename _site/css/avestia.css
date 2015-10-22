@@ -1834,21 +1834,24 @@ h2 {
   .j-header h1 {
     font-size: 1.2em!important;
     padding: 0;
-    width: 100%
+    width: 100%;
+    height: 162px;
   }
   .name .body {
-    font-size: 0.7em;
+    font-size: 0.8em;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
   }
   .j-oa {
     display: inline-block;
     width: 80%;
-    padding-top: 1em;
-    max-width: 280px;
+    max-width: 180px;
   }
   .oalink {
-    width: 100%;
-    display: block;
-    text-align: left;
+    width: 47%;
+    display: inline-block;
+    text-align: right;
   }
 .topics {
     -moz-column-count: 2;
@@ -1931,6 +1934,9 @@ h2 {
   .j-link {
     font-size: 1em;
   }
+  .j-header h1 {
+    height: 194px;
+}
 }
 
 /* 1000 PX */
@@ -1972,7 +1978,14 @@ h2 {
 }
 .j-header h1 {
     font-size: 2em!important;
+    height: 250px;
 }
+.name .body {
+    font-size: 1.2em;
+  }
+  .oalink {
+    width: 48%;
+  }
 }
 
 /* 1200 PX */
@@ -2048,6 +2061,12 @@ h2 {
   .j-img {
     display: none;
   }
+  .j-header h1 {
+    height: 280px;
+}
+.name .body {
+    font-size: 1.4em;
+}
 }
 
 
@@ -2062,9 +2081,6 @@ h2 {
 }
 .journals div {
     margin: 4.2px;
-}
-.j-oa {
-    padding-top: 2em;
 }
 }
 
