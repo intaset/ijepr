@@ -274,7 +274,7 @@ mail($my_email,$subject,$message,$headers);
 </div>
   
   <div class="grid">
-  <div class="main-content">
+  <div class="main-content j-home">
     <div class="unit unit-s-1 unit-m-1 unit-l-1">
     <h2>Contact IJEPR</h2>
 

@@ -180,7 +180,7 @@ if ($emailcheck2 != 0) {
 </div>
   
   <div class="grid">
-  <div class="main-content">
+  <div class="main-content j-home">
     <div class="unit unit-s-1 unit-m-1 unit-l-1">
     <h2>Receive Updates</h2>
 
@@ -532,7 +532,7 @@ mail($email, $subject, $message,  "FROM: $jName <no-reply@avestia.com>");
 </div>
   
   <div class="grid">
-  <div class="main-content">
+  <div class="main-content j-home">
     <div class="unit unit-s-1 unit-m-1 unit-l-1">
     <h2>Receive Updates</h2>
 
